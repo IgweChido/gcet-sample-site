@@ -1,0 +1,49 @@
+/******* HomeSec4 component styles *********/
+.homesec4{
+    /* border: 1px solid red; */
+    padding: 200px 0 150px;
+}
+
+.homesec4-main{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+}
+
+.hs4-left{
+    /* width: 42%; */
+}
+
+.hs4-left img{
+   width:100%;
+}
+
+.hs4-right{
+    /* border:1px solid yellow; */
+}
+
+.hs4-head{
+    width: 300px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* or 131% */
+    
+    
+    color: #111922;
+    margin-bottom: 12px;
+}
+
+.hs4-body{
+    width: 500px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: rgba(17, 25, 34, 0.9);
+    
+}

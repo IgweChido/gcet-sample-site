@@ -1,0 +1,56 @@
+/******* HomeSec2 component styles *********/
+.homesec2{
+    /* border:1px solid green; */
+    padding: 130px 0;
+}
+
+
+.homesec2-main{
+    width: 802px;
+    /* border:1px solid red; */
+    display: block;
+    margin: auto !important;
+}
+
+.hs2-head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    
+    /* dark */
+    
+    color: #111922;
+}
+
+.hs2-body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    margin: 12px 0 30px;
+    color: rgba(17, 25, 34, 0.9);
+        
+}
+
+.hs2-button{
+    margin: auto;
+    display: block;
+    padding: 10px 14px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    background: #03A9F4;
+    color: white;
+    
+    border-radius: 4px;
+}

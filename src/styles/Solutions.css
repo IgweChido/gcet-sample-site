@@ -1,0 +1,197 @@
+/******* solution component styles *********/
+.sol-hero{
+    border: 1px solid transparent;
+    /* background-image: url('../images/esss-back.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 126px;
+    margin-top: -126px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes example {
+    from {
+        opacity: 0.1;
+        background-position: right;
+    }
+    to {
+        opacity: 1;
+        background-position: center;
+    }
+  }
+
+
+.sol-h-main{
+    /* border: 1px solid green; */
+}
+
+.sol-h-word{
+    /* border: 1px solid red; */
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 124.4%;
+    /* or 52px */
+    width: 474px;
+    margin: 120px 0 ;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    
+    color: #FFFFFF;    
+}
+
+@keyframes example1 {
+    from {
+        opacity: 0.1;
+        
+    }
+    to {
+        opacity: 1;
+       
+    }
+  }
+
+
+/********************** Solutions Body ********************/
+
+
+.sol-body{
+    /* border:1px solid red; */
+    padding: 76px 0 0;
+}
+
+.sol-b-main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap:20px
+}
+
+.sol-b-left{
+    /* border: 1px solid yellow; */
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes example2 {
+    from {
+        opacity: 0.1;
+        margin-top:-200px;
+        margin-left: 200px;
+        
+    }
+    to {
+        opacity: 1;
+        margin-top:0;
+        margin-right: 0;
+       
+    }
+  }
+
+.sol-b-line{
+    background-color: #456387;
+    width: 100%;
+    height: 1px;
+}
+
+.sol-b-head{
+    font-weight: 600;
+    margin: 30px 0 88px;
+    font-size: 32px;
+    line-height: 24px;
+    /* identical to box height, or 75% */
+    
+    letter-spacing: 0.075em;
+    
+    /* GREY */
+    
+    color: #456387;
+}
+
+.sol-b-image{
+
+}
+
+.sol-b-image img{
+    width: 100%;
+}
+
+.sol-b-right{
+    /* border: 1px solid blue; */
+    width: 58%;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+
+/*************esss word ************/
+.esss-word{
+    /* border:1px solid red; */
+}
+
+.word1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    /* or 209% */
+
+    letter-spacing: 0.02em;
+
+    /* dark */
+
+    color: #111922;
+    margin-bottom: 30px;
+
+}
+
+.esss-list{
+    /* border:1px solid green; */
+    margin-bottom: 30px;
+}
+
+.esss-item{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 10px;
+}
+.esss-dot{
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    background-color: #111922;
+}
+
+.esss-bold{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 34px;
+    /* or 209% */
+    
+    letter-spacing: 0.02em;
+    
+    /* dark */
+    
+    color: #111922;    
+}
+.sol-partners{
+    /* border:1px solid black; */
+    margin-top: 194px;
+    margin-bottom: 300px;
+}
+.sol-partner{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    gap:15.85%;
+    flex-wrap: wrap;
+}
+
+.sol-partner .partner-comp:nth-child(5){
+    margin-left: 28.8%;
+}
+

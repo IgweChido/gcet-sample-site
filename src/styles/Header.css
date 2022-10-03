@@ -1,0 +1,102 @@
+/******* header component styles *********/
+.head-container{
+    /* border: 1px solid green; */
+    
+    background-color:transparent;
+    
+    width: 100%;
+    z-index: 2;
+   
+    
+}
+
+
+
+.head-main{
+   
+    padding: 30px 0;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div{
+    /* border: 1px solid yellow; */
+}
+
+.link-buttons{
+    /* border: 1px solid green; */
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+
+
+
+.link-buttons div a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.link-buttons button{
+    font-family: open-sans, sans-serif;
+    border:none;
+    padding: 10px 14px;
+    background: #03A9F4;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.drop-link{
+    /* border:1px solid green; */
+    position: relative;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.drop-link p{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.hidden-link, .hidden-link1{
+    display: none;
+    background-color: white;
+    position: absolute;
+    top:85px;
+    z-index: 1;
+    padding:15px 15px;
+    width: 390px;
+    border-radius: 2px;
+   
+
+}
+
+.hidden-link1{
+    width: 301px !important;
+}
+.show{
+    display: block;
+}
+
+.hidden-link div,.hidden-link1 div{
+    /* border:1px solid red; */
+    margin-bottom: 8px;
+    
+}
+
+.hidden-link div a,.hidden-link1 div a{
+    /* border:1px solid red; */
+    color: #111922;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+

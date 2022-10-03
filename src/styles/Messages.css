@@ -1,0 +1,87 @@
+.gcet__message{
+    /* border: 1px solid green; */
+    display: grid;
+    
+    margin-bottom: 140px !important;
+    margin-top: -100px !important;
+    position: relative;
+    z-index: 5;
+    grid-template-columns: 2fr 1fr;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.gcet__message-section{
+    padding: 42px 72px 32px 84px;
+    box-shadow: 0px 4px 4px rgba(15, 12, 40, 0.1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.gcet__message-section h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E0B2B;
+    margin-bottom: 18px;
+}
+.gcet__messageForm .input_group{
+    display: flex;
+    gap: 88px;
+    margin-bottom: 28px;
+}
+.gcet__messageForm span{
+    display: block;
+    margin-bottom: 5px;
+}
+.gcet__messageForm label{
+    flex: 1;
+}
+.gcet__messageForm input,
+.gcet__messageForm textarea{
+    width: 100%;
+    font-size: 12px;
+    padding: 11px;
+    font-weight: 400;
+    font-family: inherit;
+    background: transparent;
+    border: none;
+    border: 1px solid rgba(15, 11, 44, 0.2);
+    border-radius: 6px;
+}
+.gcet__messageForm textarea{
+    height: 99px;
+}
+.gcet__messageForm .button-img{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.gcet__messageForm input::placeholder,
+.gcet__messageForm textarea::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+.gcet__infor-section{
+    color: #fff;
+    /* border:0.5px solid #fff; */
+    background: #456387;
+    padding: 42px 0 0 53px;
+    box-shadow: 0px 4px 4px rgba(15, 12, 40, 0.1);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../images/contact-bg.svg);
+    background-position: 90% 92%;
+    background-repeat: no-repeat;
+}
+.gcet__infor-section h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 31px;
+}
+.gcet__infor-section address{
+    font-style: normal;
+    margin-bottom: 37px;
+}
+.gcet__infor-section a{
+    display: block;
+    margin-bottom: 37px;
+    color: white;
+}

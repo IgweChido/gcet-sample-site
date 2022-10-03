@@ -1,0 +1,90 @@
+/******* footer component styles *********/
+
+.footer{
+    border: 1px solid transparent;
+    background-image: url('../images/footer-back.png');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.foot-main{
+    /* border: 1px solid blue; */
+    margin-top: 120px !important;
+}
+
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-bottom: 173px;
+}
+
+.foot-bottom{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.foot-top div{
+    /* border:1px solid green; */
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+
+.foot-top div a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-top div a:hover{
+    color: purple;
+   
+}
+
+.foot-logo{
+    margin-bottom: 20px;
+}
+
+
+
+.part1{
+    width: 296px;
+    line-height: 22px !important;
+}
+.part2{
+    width: 290px;
+    line-height: 28px;
+}
+.part3{
+    width: 240px;
+    line-height: 28px;
+}
+.part4{
+    width: 224px;
+}
+
+.foot-head{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.part4-dets{
+    /* border: 1px solid green; */
+}
+
+.p4-dets{
+    display: flex;
+    gap:12px;
+    margin-top: 15px;
+}

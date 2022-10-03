@@ -1,0 +1,137 @@
+/******* Hero component styles *********/
+.hero{
+    border: 1px solid transparent;
+    background-image: url('../images/hero-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 126px;
+    margin-top: -126px;
+    
+}
+@keyframes example {
+    from {opacity: 0.1;}
+    to {opacity: 1;}
+  }
+
+.active-h{
+    display: block;
+}
+
+.nActive-h{
+    display: none;
+}
+
+
+.hero-main{
+    margin-top: 70px !important;
+    margin-bottom: 170px !important;
+    /* border:1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    
+}
+
+.hero-left{
+    /* border: 1px solid red; */
+    width: 46%;
+}
+
+.hero-right{
+    /* border: 1px solid yellow; */
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease-in-out;
+    
+    
+}
+
+.hero-right img{
+    width: 100%;
+}
+.h-header{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 68px;
+    /* identical to box height */
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease-in-out;
+    
+
+    color: #FFFFFF;
+
+}
+
+.h-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* or 139% */
+    margin: 15px 0 20px;
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease-in-out;
+    
+
+    color: #FFFFFF;
+}
+
+
+.h-circle{
+    /* border:1px solid green; */
+    display: flex;
+    align-items: center;
+    gap:8px;
+    margin-bottom: 22px;
+
+}
+
+.h-circle div{
+    border-radius: 50%;
+    width: 7px;
+    height:7px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.current-circle{
+    background-color: white !important;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    gap:19px;
+
+}
+
+.hero-buttons button{
+    padding: 10px 14px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+    
+    border-radius: 4px;
+}
+
+.h-b1{
+    background: #03A9F4;
+    color: white;
+}
+
+.h-b2{
+    background: white;
+    color: #03A9F4;
+
+}

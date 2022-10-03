@@ -1,0 +1,169 @@
+/******* HomeSec3 component styles *********/
+
+.homesec3{
+    /* border:1px solid red; */
+    position: relative;
+    
+}
+
+.homesec3-cont{
+   
+    padding: 52px 0;
+    width: 77.9%;
+    height: 600px;
+    background-image: url('../images/know-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 100px 200px 0;
+    
+}
+
+.homesec3-main{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 6.94%;
+}
+
+.hs3-left{
+    /* border:1px solid yellow; */
+    width: 45%;
+    
+
+}
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1130px) {
+    .homesec3-cont{
+   
+        padding: 70px 0 !important;
+       
+       
+    }
+  }
+
+
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1200px) {
+    .homesec3-main{
+     left:50%;
+     margin-left: -600px;
+     padding: 0px 6.94% !important;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1230px) {
+    .homesec3-main{
+   
+     padding: 0px 4.94% !important;
+     
+    }
+
+    .homesec3-cont{
+   
+        padding: 85px 0 !important;
+       
+       
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1260px) {
+    .homesec3-main{
+    
+     padding: 0px 2.94% !important;
+    }
+  }
+
+    /* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1290px) {
+    .homesec3-main{
+    
+     padding: 0px  !important;
+    }
+
+    .homesec3-cont{
+   
+        padding: 75px 0 !important;
+       
+        height: 550px !important;
+    }
+  }
+
+     /* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1560px) {
+    
+
+    .homesec3-cont{
+   
+        width: 70%;
+    }
+  }
+
+   /* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1980px) {
+    
+
+    .homesec3-cont{
+   
+        width: 65%;
+    }
+  }
+  
+.hs3-head{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.hs3-body, .hs3-body1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+
+
+.hs3-button{
+   
+    padding: 10px 14px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    width: 175px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #03A9F4;
+    background: white;
+    
+    border-radius: 4px;
+}
+
+
+.hs3-right{
+   
+    
+    
+}
+
+.hs3-right img{
+    width: 100%;
+}

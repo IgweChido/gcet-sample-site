@@ -1,0 +1,36 @@
+.gcet__layout{
+    /* border:1px solid red; */
+    /* background-color: #1e1946;  */
+ }
+ .gcet__layout-head{
+    /* border: 1px solid yellow; */
+    border: 1px solid transparent;
+    background-image: url('../images/hero-back.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 126px;
+    margin-top: -126px;
+     /* height: 555px; */
+   
+     color: #fff;
+ }
+ .gcet__layout-wrap{
+    /* border:1px solid red; */
+     color: #fff;
+     
+     padding: 114px 0 84px;
+ }
+ .gcet__layout-banner{
+     max-width: 680px;
+     margin-bottom: 60px;
+ }
+ .gcet__layout-banner h1{
+     margin-bottom: 13px;
+ }
+ .gcet__layout-banner p{
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 24px;
+ }
+ 

@@ -1,0 +1,61 @@
+/******* HomeSec5 component styles *********/
+
+.homesec6{
+    /* border: 1px solid green; */
+    margin-bottom: 300px;
+}
+
+.homesec6-main{
+    /* border: 1px solid yellow; */
+}
+
+.hs6-head{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    /* dark */
+    
+    color: #111922;
+    margin-bottom: 60px;
+}
+
+.hs6-partners{
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    gap:1.44%;
+    flex-wrap: wrap;
+}
+
+.partner-comp{
+    /* border: 1px solid green; */
+    width: 13.05%;
+    height: 97px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(3, 169, 244, 0.11);
+    border-radius: 10px;
+    position: relative;
+    padding: 0 16px;
+    margin-bottom:28px ;
+    
+}
+
+.partner-comp:nth-child(15){
+    margin-left: 21.8%;
+}
+
+/* .partner-comp:last-child{
+    margin-right: 19.4%;
+} */
+
+.partner-comp img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* border: 1px solid red; */
+}

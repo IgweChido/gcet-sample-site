@@ -1,0 +1,50 @@
+/******* HomeSec5 component styles *********/
+.homesec5{
+    /* border: 1px solid red; */
+    padding: 0 0 130px;
+}
+
+.homesec5-main{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+}
+
+.hs5-left{
+    /* border: 1px solid yellow; */
+}
+
+.hs5-head{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height, or 131% */
+    
+    
+    /* dark */
+    
+    color: #111922;
+    margin-bottom: 20px;
+}
+
+.hs5-body{
+    width: 498px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    
+    
+    color: rgba(17, 25, 34, 0.9);
+    
+}
+
+.hs5-right{
+
+}
+
+.hs5-right img{
+   width: 100%; 
+}
